@@ -16,7 +16,7 @@ jobs:
     steps:
       -
         name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       -
         name: Login to GitHub Container Registry
         uses: ./
@@ -48,7 +48,7 @@ jobs:
     steps:
       -
         name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       -
         name: Login to Docker Hub
         uses: ./
@@ -68,7 +68,7 @@ jobs:
 #    steps:
 #      -
 #        name: Checkout
-#        uses: actions/checkout@v2
+#        uses: actions/checkout@v3
 #      -
 #        name: Login to ECR
 #        uses: ./
@@ -89,7 +89,7 @@ jobs:
 #    steps:
 #      -
 #        name: Checkout
-#        uses: actions/checkout@v2
+#        uses: actions/checkout@v3
 #      -
 #        name: Configure AWS Credentials
 #        uses: aws-actions/configure-aws-credentials@v1
@@ -108,7 +108,7 @@ jobs:
     steps:
       -
         name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       -
         name: Login to GitHub Package Registry
         uses: ./
@@ -122,7 +122,7 @@ jobs:
     steps:
       -
         name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       -
         name: Login to GitHub Container Registry
         uses: ./
@@ -136,7 +136,7 @@ jobs:
     steps:
       -
         name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       -
         name: Login to GitLab
         uses: ./
@@ -150,7 +150,7 @@ jobs:
 #    steps:
 #      -
 #        name: Checkout
-#        uses: actions/checkout@v2
+#        uses: actions/checkout@v3
 #      -
 #        name: Login to Google Artifact Registry
 #        uses: ./
@@ -164,7 +164,7 @@ jobs:
 #    steps:
 #      -
 #        name: Checkout
-#        uses: actions/checkout@v2
+#        uses: actions/checkout@v3
 #      -
 #        name: Login to Google Container Registry
 #        uses: ./
